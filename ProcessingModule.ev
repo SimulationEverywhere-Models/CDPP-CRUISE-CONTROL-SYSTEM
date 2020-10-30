@@ -1,0 +1,25 @@
+00:00:10:000 testInOn 1
+00:00:11:000 testInSpeed 100
+00:00:20:000 testInSet 1
+00:00:21:000 testInSpeed 110
+00:00:30:000 testInAcc 1
+00:00:31:000 testInSpeed 120
+00:00:40:000 testInAcc 1
+00:00:41:000 testInSpeed 115
+00:00:45:000 testInBreak 1
+00:00:45:500 testInSpeed 80
+00:00:46:000 testInResume 1
+00:00:48:000 testInSpeed 110
+00:00:50:000 testInDec 1
+00:00:51:000 testInSpeed 120
+00:01:00:000 testInDec 1
+00:01:03:000 testInSpeed 115
+00:01:05:000 testInGas 1
+00:01:08:000 testInSpeed 110
+00:01:10:000 testInDec 1
+00:01:11:000 testInSpeed 110
+00:01:20:000 testInResume 1
+00:01:21:000 testInSpeed 110
+00:01:30:000 testInOff 1
+
+

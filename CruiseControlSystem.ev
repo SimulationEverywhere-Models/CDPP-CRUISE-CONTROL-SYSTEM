@@ -1,0 +1,34 @@
+00:00:10:000 testInButton 1
+00:00:11:000 testInSpeedSensor 100
+00:00:14:000 testInSpeedSensor 110
+00:00:20:000 testInButton 3
+00:00:21:000 testInSpeedSensor 114
+00:00:24:000 testInSpeedSensor 108
+00:00:27:000 testInSpeedSensor 118
+00:00:30:000 testInButton 4
+00:00:31:000 testInSpeedSensor 120
+00:00:34:000 testInSpeedSensor 106
+00:00:37:000 testInSpeedSensor 111
+00:00:40:000 testInButton 4
+00:00:41:000 testInSpeedSensor 115
+00:00:45:000 testInBreak 1
+00:00:45:500 testInSpeedSensor 80
+00:00:46:000 testInButton 6
+00:00:48:000 testInSpeedSensor 110
+00:00:50:000 testInButton 5
+00:00:51:000 testInSpeedSensor 120
+00:00:55:000 testInSpeedSensor 106
+00:00:58:000 testInSpeedSensor 118
+00:01:00:000 testInButton 5
+00:01:03:000 testInSpeedSensor 115
+00:01:05:000 testInGasPedal 1
+00:01:08:000 testInSpeedSensor 118
+00:01:10:000 testInButton 5
+00:01:11:000 testInSpeedSensor 120
+00:01:11:000 testInSpeedSensor 112
+00:01:11:000 testInSpeedSensor 113
+00:01:20:000 testInButton 6
+00:01:21:000 testInSpeedSensor 110
+00:01:30:000 testInButton 2
+
+

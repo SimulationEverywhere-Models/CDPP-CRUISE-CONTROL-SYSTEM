@@ -1,0 +1,119 @@
+
+Cruise Control System
+=====================
+
+The Cruise Control System (CCS) has been developed and tested on the Linux
+environment only.  No testing has been done using Gygwin and the behavior is
+not observed.  Also, the "queue" model provided with the simulator has been re-used in
+our model.
+
+Step 1:
+
+	Download the cd++_exec_linux.zip and extract it.  Let it extract it to
+	the default directory, so this document can be based on that.
+	By defalut, a "cd++" directory will be created and the simulator files will
+	be extracted there.
+
+Step 2:
+	Move the "CruiseControlSystem.zip" file into the "cd++" directory and extract
+	it there with it's default name.  The extraction will prompt for the 
+	"makefile" to be replaced and please agree for the replacement.  In this process... 
+	the cruise control system files (.cpp/.h) will be extracted to the "cd++" directory
+	and a "CruiseControlModules" directory will be created to stored the other
+	files (.ma .ev .bat).  Each of the modules will be stored in there own 
+	directory names as follows.
+
+	<CruiseControlSystem.zip>
+		- Increase.cpp
+		- Increase.h
+		- BreakController.cpp
+		- BreakController.h
+		- Decrease.cpp
+		- Decrease.h
+		- Set.cpp
+		- Set.h
+		- Resume.cpp
+		- Resume.h
+		- CCSController.cpp
+		- CCSController.h
+		- ONOFFController.cpp
+		- ONOFFController.h
+		- ButtonInputModule.cpp
+		- ButtonInputModule.h
+		- OutputModule.cpp
+		- OutputModule.h
+		- PedalController.cpp
+		- PedalController.h
+		- registerCCS.cpp
+		- makefile
+		- CCSReadme
+		- CruiseControlSystemReport.doc
+		- <CruiseControlModules>
+ 			- <BreakController>
+				- BreakController.ev
+				- BreakController.ma
+				- testBreakController.bat
+			- <ButtonController>
+				- ButtonController.ev
+				- ButtonController.ma
+				- testButtonController.bat
+			- <ButtonInputModule>
+				- ButtonInputModule.ev
+				- ButtonInputModule.ma
+				- testButtonInputModule.bat 
+			- <CCSController>
+				- CCSController.ev
+				- CCSController.ma
+				- testCCSController.bat
+			- <CruiseControlSystem>
+				- CruiseControlSystem.ev
+				- CruiseControlSystem.ma
+				- testCruiseControlSystem.bat
+			- <Decrease>
+				- Decrease.ev
+				- Decrease.ma
+				- testDecrease.bat
+			- <Increase>
+				- Increase.ev
+				- Increase.ma
+				- testIncrease.bat
+			- <ONOFFController>
+				- ONOFFController.ev
+				- ONOFFController.ma
+				- testONOFFController.bat
+			- <OutputModule>
+				- OutputModule.ev
+				- OutputModule.ma
+				- testOutputModule.bat
+			- <PedalController>
+				- PedalController.ev
+				- PedalController.ma
+				- testPedalController.bat
+			- <ProcessingModule>
+				- ProcessingModule.ev
+				- ProcessingModule.ma
+				- testProcessingModule.bat
+			- <Resume>
+				- Resume.ev
+				- Resume.ma
+				- testResume.bat
+			- <Set>
+				- Set.ev
+				- Set.ma
+				- testSet.bat
+			- <SpeedController>
+				- SpeedController.ev
+				- SpeedController.ma
+				- testSpeedController.bat
+
+Step 3:  
+	Now its time to complile the CCS.  Using the supplied "makefile", first do 
+	a "make clean".  This will remove all the unwanted object files.  Then
+	execute "make" and our Cruise Control System files will be compiled.
+
+Step 4:
+	Each of the atomic models can tested using the attached ".bat" files in each
+	module directories under CruiseControlSystem. To test the full 
+	CruiseControlSystem, run 
+				--> testCruiseControlSystem.bat 
+	(../cd++/CruiseControlModules/CruiseControlSystem/testCruiseControlSystem.bat)	

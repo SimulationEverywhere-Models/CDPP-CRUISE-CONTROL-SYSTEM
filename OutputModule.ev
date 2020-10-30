@@ -1,0 +1,6 @@
+00:00:10:00 testInc 1
+00:00:20:00 testDec 1
+00:00:30:00 testStp 1
+00:00:40:00 testDec 1
+00:00:50:00 testStp 1
+00:01:00:00 testInc 1
